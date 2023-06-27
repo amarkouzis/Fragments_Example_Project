@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#C5C4C3">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="pervasivecomputing.example.a2markouzisalexandros.MainFragment"
+        android:layout_width="255dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_main"></fragment>
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="pervasivecomputing.example.a2markouzisalexandros.RegionsFragment"
+        android:layout_width="255dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_regions"></fragment>
+
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="pervasivecomputing.example.a2markouzisalexandros.CitiesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_cities"></fragment>
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C5C4C3">
+
+    <LinearLayout
+        android:id="@+id/groupRegions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome to the application!"
+            android:layout_marginBottom="12dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#121212"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/buttonCen"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_buttons"
+            android:onClick="onFirstSelection"
+            android:text="CENTRAL GREECE"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D" />
+
+        <Button
+            android:id="@+id/buttonCre"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_buttons"
+            android:onClick="onFirstSelection"
+            android:text="CRETE"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D" />
+
+        <Button
+            android:id="@+id/buttonPel"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_buttons"
+            android:onClick="onFirstSelection"
+            android:text="PELOPONNISOS"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D" />
+
+        <Button
+            android:id="@+id/buttonThr"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_buttons"
+            android:onClick="onFirstSelection"
+            android:text="THRACE"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D" />
+
+        <Button
+            android:id="@+id/buttonThe"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_buttons"
+            android:onClick="onFirstSelection"
+            android:text="THESSALY"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D" />
+
+        <Button
+            android:id="@+id/buttonEpi"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_buttons"
+            android:onClick="onFirstSelection"
+            android:text="EPIRUS"
+            android:textSize="16sp"
+            app:backgroundTint="#EBA55D" />
+    </LinearLayout>
+
+</ScrollView>
