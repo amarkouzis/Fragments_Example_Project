@@ -12,3 +12,4 @@ In this project we will se:
 * how to transfer data between fragments
 * how to have a different layout of the application in portrait and landscape mode respectively
 
+<img src="" alt="drawing" width="200"/>
